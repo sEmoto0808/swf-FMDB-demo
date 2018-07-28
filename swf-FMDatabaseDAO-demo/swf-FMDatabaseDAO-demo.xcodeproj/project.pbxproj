@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EB8C1895868A35702B6803D /* Pods_swf_FMDatabaseDAO_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B89746BF28A315DC537EB398 /* Pods_swf_FMDatabaseDAO_demo.framework */; };
+		A214A43A20A6B10F00154423 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214A43920A6B10F00154423 /* AppDelegate.swift */; };
+		A214A43C20A6B10F00154423 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214A43B20A6B10F00154423 /* ViewController.swift */; };
+		A214A43F20A6B10F00154423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A214A43D20A6B10F00154423 /* Main.storyboard */; };
+		A214A44120A6B11000154423 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A214A44020A6B11000154423 /* Assets.xcassets */; };
+		A214A44420A6B11000154423 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A214A44220A6B11000154423 /* LaunchScreen.storyboard */; };
+		A214A44F20A6B11000154423 /* swf_FMDatabaseDAO_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214A44E20A6B11000154423 /* swf_FMDatabaseDAO_demoTests.swift */; };
+		A2643CAF20A6B1C00010252B /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A2643CAE20A6B1BF0010252B /* libsqlite3.0.tbd */; };
+		A2643CB220A6B2690010252B /* SwiftyFMDBDaoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2643CB120A6B2690010252B /* SwiftyFMDBDaoHelper.swift */; };
+		A2643CB520A6F6980010252B /* FMDBConditionSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2643CB420A6F6980010252B /* FMDBConditionSetting.swift */; };
+		D11C0824A4D34192A09E1EB7 /* Pods_swf_FMDatabaseDAO_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED4CA996D65E1C3448FC183 /* Pods_swf_FMDatabaseDAO_demoTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A214A44B20A6B11000154423 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A214A42E20A6B10E00154423 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A214A43520A6B10F00154423;
+			remoteInfo = "swf-FMDatabaseDAO-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		449F761B385A0FF69F9B1BE4 /* Pods-swf-FMDatabaseDAO-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swf-FMDatabaseDAO-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swf-FMDatabaseDAO-demo/Pods-swf-FMDatabaseDAO-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		4ED4CA996D65E1C3448FC183 /* Pods_swf_FMDatabaseDAO_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swf_FMDatabaseDAO_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A214A43620A6B10F00154423 /* swf-FMDatabaseDAO-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swf-FMDatabaseDAO-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A214A43920A6B10F00154423 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A214A43B20A6B10F00154423 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A214A43E20A6B10F00154423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A214A44020A6B11000154423 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A214A44320A6B11000154423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A214A44520A6B11000154423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A214A44A20A6B11000154423 /* swf-FMDatabaseDAO-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swf-FMDatabaseDAO-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A214A44E20A6B11000154423 /* swf_FMDatabaseDAO_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swf_FMDatabaseDAO_demoTests.swift; sourceTree = "<group>"; };
+		A214A45020A6B11000154423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2643CAE20A6B1BF0010252B /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		A2643CB120A6B2690010252B /* SwiftyFMDBDaoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyFMDBDaoHelper.swift; sourceTree = "<group>"; };
+		A2643CB420A6F6980010252B /* FMDBConditionSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMDBConditionSetting.swift; sourceTree = "<group>"; };
+		AB7423979669456C14DA0C91 /* Pods-swf-FMDatabaseDAO-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swf-FMDatabaseDAO-demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swf-FMDatabaseDAO-demoTests/Pods-swf-FMDatabaseDAO-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B89746BF28A315DC537EB398 /* Pods_swf_FMDatabaseDAO_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swf_FMDatabaseDAO_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5333C196633B1A0437C9B6 /* Pods-swf-FMDatabaseDAO-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swf-FMDatabaseDAO-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-swf-FMDatabaseDAO-demo/Pods-swf-FMDatabaseDAO-demo.release.xcconfig"; sourceTree = "<group>"; };
+		F6AED0797AB30BE29A58C007 /* Pods-swf-FMDatabaseDAO-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swf-FMDatabaseDAO-demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swf-FMDatabaseDAO-demoTests/Pods-swf-FMDatabaseDAO-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A214A43320A6B10F00154423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2643CAF20A6B1C00010252B /* libsqlite3.0.tbd in Frameworks */,
+				6EB8C1895868A35702B6803D /* Pods_swf_FMDatabaseDAO_demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A214A44720A6B11000154423 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D11C0824A4D34192A09E1EB7 /* Pods_swf_FMDatabaseDAO_demoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16EB03D06CCE9D84E6CE547A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				449F761B385A0FF69F9B1BE4 /* Pods-swf-FMDatabaseDAO-demo.debug.xcconfig */,
+				DF5333C196633B1A0437C9B6 /* Pods-swf-FMDatabaseDAO-demo.release.xcconfig */,
+				AB7423979669456C14DA0C91 /* Pods-swf-FMDatabaseDAO-demoTests.debug.xcconfig */,
+				F6AED0797AB30BE29A58C007 /* Pods-swf-FMDatabaseDAO-demoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A214A42D20A6B10E00154423 = {
+			isa = PBXGroup;
+			children = (
+				A214A43820A6B10F00154423 /* swf-FMDatabaseDAO-demo */,
+				A214A44D20A6B11000154423 /* swf-FMDatabaseDAO-demoTests */,
+				A214A43720A6B10F00154423 /* Products */,
+				16EB03D06CCE9D84E6CE547A /* Pods */,
+				B2F7143CB2564123023DC287 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A214A43720A6B10F00154423 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A214A43620A6B10F00154423 /* swf-FMDatabaseDAO-demo.app */,
+				A214A44A20A6B11000154423 /* swf-FMDatabaseDAO-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A214A43820A6B10F00154423 /* swf-FMDatabaseDAO-demo */ = {
+			isa = PBXGroup;
+			children = (
+				A2643CB020A6B1D30010252B /* Hepler */,
+				A214A43920A6B10F00154423 /* AppDelegate.swift */,
+				A214A43B20A6B10F00154423 /* ViewController.swift */,
+				A214A43D20A6B10F00154423 /* Main.storyboard */,
+				A214A44020A6B11000154423 /* Assets.xcassets */,
+				A214A44220A6B11000154423 /* LaunchScreen.storyboard */,
+				A214A44520A6B11000154423 /* Info.plist */,
+			);
+			path = "swf-FMDatabaseDAO-demo";
+			sourceTree = "<group>";
+		};
+		A214A44D20A6B11000154423 /* swf-FMDatabaseDAO-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A214A44E20A6B11000154423 /* swf_FMDatabaseDAO_demoTests.swift */,
+				A214A45020A6B11000154423 /* Info.plist */,
+			);
+			path = "swf-FMDatabaseDAO-demoTests";
+			sourceTree = "<group>";
+		};
+		A2643CB020A6B1D30010252B /* Hepler */ = {
+			isa = PBXGroup;
+			children = (
+				A2643CB320A6F6630010252B /* FMDB */,
+			);
+			path = Hepler;
+			sourceTree = "<group>";
+		};
+		A2643CB320A6F6630010252B /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				A2643CB120A6B2690010252B /* SwiftyFMDBDaoHelper.swift */,
+				A2643CB420A6F6980010252B /* FMDBConditionSetting.swift */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		B2F7143CB2564123023DC287 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2643CAE20A6B1BF0010252B /* libsqlite3.0.tbd */,
+				B89746BF28A315DC537EB398 /* Pods_swf_FMDatabaseDAO_demo.framework */,
+				4ED4CA996D65E1C3448FC183 /* Pods_swf_FMDatabaseDAO_demoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A214A43520A6B10F00154423 /* swf-FMDatabaseDAO-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A214A45320A6B11000154423 /* Build configuration list for PBXNativeTarget "swf-FMDatabaseDAO-demo" */;
+			buildPhases = (
+				6AC487A35595808CDD0186D0 /* [CP] Check Pods Manifest.lock */,
+				A214A43220A6B10F00154423 /* Sources */,
+				A214A43320A6B10F00154423 /* Frameworks */,
+				A214A43420A6B10F00154423 /* Resources */,
+				E88A689BEB41FB970099A7BA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swf-FMDatabaseDAO-demo";
+			productName = "swf-FMDatabaseDAO-demo";
+			productReference = A214A43620A6B10F00154423 /* swf-FMDatabaseDAO-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A214A44920A6B11000154423 /* swf-FMDatabaseDAO-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A214A45620A6B11000154423 /* Build configuration list for PBXNativeTarget "swf-FMDatabaseDAO-demoTests" */;
+			buildPhases = (
+				2CB7DE2487957F3DD1D28B8C /* [CP] Check Pods Manifest.lock */,
+				A214A44620A6B11000154423 /* Sources */,
+				A214A44720A6B11000154423 /* Frameworks */,
+				A214A44820A6B11000154423 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A214A44C20A6B11000154423 /* PBXTargetDependency */,
+			);
+			name = "swf-FMDatabaseDAO-demoTests";
+			productName = "swf-FMDatabaseDAO-demoTests";
+			productReference = A214A44A20A6B11000154423 /* swf-FMDatabaseDAO-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A214A42E20A6B10E00154423 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = S.Emoto;
+				TargetAttributes = {
+					A214A43520A6B10F00154423 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					A214A44920A6B11000154423 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A214A43520A6B10F00154423;
+					};
+				};
+			};
+			buildConfigurationList = A214A43120A6B10E00154423 /* Build configuration list for PBXProject "swf-FMDatabaseDAO-demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A214A42D20A6B10E00154423;
+			productRefGroup = A214A43720A6B10F00154423 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A214A43520A6B10F00154423 /* swf-FMDatabaseDAO-demo */,
+				A214A44920A6B11000154423 /* swf-FMDatabaseDAO-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A214A43420A6B10F00154423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A214A44420A6B11000154423 /* LaunchScreen.storyboard in Resources */,
+				A214A44120A6B11000154423 /* Assets.xcassets in Resources */,
+				A214A43F20A6B10F00154423 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A214A44820A6B11000154423 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CB7DE2487957F3DD1D28B8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swf-FMDatabaseDAO-demoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AC487A35595808CDD0186D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swf-FMDatabaseDAO-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E88A689BEB41FB970099A7BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-swf-FMDatabaseDAO-demo/Pods-swf-FMDatabaseDAO-demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swf-FMDatabaseDAO-demo/Pods-swf-FMDatabaseDAO-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A214A43220A6B10F00154423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A214A43C20A6B10F00154423 /* ViewController.swift in Sources */,
+				A214A43A20A6B10F00154423 /* AppDelegate.swift in Sources */,
+				A2643CB520A6F6980010252B /* FMDBConditionSetting.swift in Sources */,
+				A2643CB220A6B2690010252B /* SwiftyFMDBDaoHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A214A44620A6B11000154423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A214A44F20A6B11000154423 /* swf_FMDatabaseDAO_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A214A44C20A6B11000154423 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A214A43520A6B10F00154423 /* swf-FMDatabaseDAO-demo */;
+			targetProxy = A214A44B20A6B11000154423 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A214A43D20A6B10F00154423 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A214A43E20A6B10F00154423 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A214A44220A6B11000154423 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A214A44320A6B11000154423 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A214A45120A6B11000154423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A214A45220A6B11000154423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A214A45420A6B11000154423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 449F761B385A0FF69F9B1BE4 /* Pods-swf-FMDatabaseDAO-demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WCRE7XME38;
+				INFOPLIST_FILE = "swf-FMDatabaseDAO-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sEmoto.jp.swf-FMDatabaseDAO-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A214A45520A6B11000154423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF5333C196633B1A0437C9B6 /* Pods-swf-FMDatabaseDAO-demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WCRE7XME38;
+				INFOPLIST_FILE = "swf-FMDatabaseDAO-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sEmoto.jp.swf-FMDatabaseDAO-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A214A45720A6B11000154423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB7423979669456C14DA0C91 /* Pods-swf-FMDatabaseDAO-demoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WCRE7XME38;
+				INFOPLIST_FILE = "swf-FMDatabaseDAO-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sEmoto.jp.swf-FMDatabaseDAO-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swf-FMDatabaseDAO-demo.app/swf-FMDatabaseDAO-demo";
+			};
+			name = Debug;
+		};
+		A214A45820A6B11000154423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6AED0797AB30BE29A58C007 /* Pods-swf-FMDatabaseDAO-demoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WCRE7XME38;
+				INFOPLIST_FILE = "swf-FMDatabaseDAO-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sEmoto.jp.swf-FMDatabaseDAO-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swf-FMDatabaseDAO-demo.app/swf-FMDatabaseDAO-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A214A43120A6B10E00154423 /* Build configuration list for PBXProject "swf-FMDatabaseDAO-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A214A45120A6B11000154423 /* Debug */,
+				A214A45220A6B11000154423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A214A45320A6B11000154423 /* Build configuration list for PBXNativeTarget "swf-FMDatabaseDAO-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A214A45420A6B11000154423 /* Debug */,
+				A214A45520A6B11000154423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A214A45620A6B11000154423 /* Build configuration list for PBXNativeTarget "swf-FMDatabaseDAO-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A214A45720A6B11000154423 /* Debug */,
+				A214A45820A6B11000154423 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A214A42E20A6B10E00154423 /* Project object */;
+}
